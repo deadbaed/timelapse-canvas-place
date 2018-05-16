@@ -1,6 +1,8 @@
 # x4m3's gitignore
 # by default: vim, git, linux, osx, windows 
 
+*.mp4
+
 ### Vim ###
 # swap
 [._]*.s[a-v][a-z]
