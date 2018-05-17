@@ -10,3 +10,6 @@ time ffmpeg -f concat -i concat-files.txt -c copy -y /home/pi/timelapse/timelaps
 
 # rename 'timelapse-new.mp4' to put the current date for the archives
 mv timelapse-new.mp4 timelapse-$(date -u +\%Y\%m\%d)-30fps.mp4;
+
+# remove 'timelapse-old.mp4' cause no longer neeeded (plus there is backups for every day)
+rm timelapse-old.mp4
