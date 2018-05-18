@@ -1,0 +1,2 @@
+*/15 * * * * curl -L https://canvas.place/api/board-image > /home/pi/timelapse/img/img-$(date -u +\%Y\%m\%d-\%H\%M).png
+46 23 * * * sh /home/pi/wkf/do-it-all.sh
