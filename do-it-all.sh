@@ -18,5 +18,8 @@ echo "4. concat the old and new timelapses"
 echo "5. archive the video and the images"
 ./final-archive.sh
 
+echo "6. upload the timelapse to the vps and rename the final timelapse"
+./vps-and-publish.sh
+
 echo "done, seeya tomorrow :)"
 echo "made with love by http://philippeloctaux.com"
