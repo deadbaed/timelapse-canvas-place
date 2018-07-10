@@ -1,25 +1,25 @@
 #!/bin/bash
 #
 
-cd /home/pi/wkf;
+cd /home/x4m3/timelapse;
 
 echo "1. archive images"
-./archive-xz.sh
+./vps/1-archive.sh
 
 echo "2. make the timelapse of the day"
-#./make-tml.sh
+./vps/2-make-timelapse.sh
 
 echo "3. delete old images"
-./delete-img.sh
+./vps/3-delete-images.sh
 
 echo "4. concat the old and new timelapses"
-#./concat.sh
+./vps/4-concat.sh
 
 echo "5. archive the video and the images"
-./final-archive.sh
+./vps/5-final-archive.sh
 
-echo "6. upload the timelapse to the vps and rename the final timelapse"
-#./vps-and-publish.sh
+echo "6. upload the archives to mega"
+./vps/6-mega-put.sh
 
 echo "done, seeya tomorrow :)"
 echo "made with love by http://philippeloctaux.com"

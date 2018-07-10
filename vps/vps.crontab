@@ -1,2 +1,2 @@
-*/15 * * * * curl -L https://canvas.place/api/board-image > /home/pi/timelapse/img/img-$(date -u +\%Y\%m\%d-\%H\%M).png
-46 02 * * * sh /home/pi/wkf/do-it-all.sh
+*/15 * * * * curl -L https://canvas.place/api/board-image > /home/x4m3/web/13370403/timelapse/img/img-$(date -u +\%Y\%m\%d-\%H\%M).png
+46 02 * * * sh /home/x4m3/timelapse/vps/vps-do-it-all.sh
