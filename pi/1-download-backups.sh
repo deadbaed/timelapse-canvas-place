@@ -8,7 +8,7 @@ cd /home/pi/timelapse/arc;
 mkdir $folder;
 cd $folder;
 
-wget -q https://13370403.xyz/timelapse/arc/img-$(date -u +\%Y\%m\%d).tar.xz;
-wget -q https://13370403.xyz/timelapse/arc/timelapse-$(date -u +\%Y\%m\%d)-30fps.mp4;
+wget "https://13370403.xyz/timelapse/arc/timelapse-$(date -u +\%Y\%m\%d)/img-$(date -u +\%Y\%m\%d).tar.xz";
+wget "https://13370403.xyz/timelapse/arc/timelapse-$(date -u +\%Y\%m\%d)/timelapse-$(date -u +\%Y\%m\%d)-30fps.mp4";
 
 echo "archives downloaded"
