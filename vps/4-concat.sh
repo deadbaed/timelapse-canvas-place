@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 
-cd /home/x4m3/web/13370403/timelapse;
+cd /home/x4m3/web/x4m3-rocks/timelapse;
 
 # copy current timelapse as old to not overwrite it when running ffmpeg
 cp timelapse.mp4 timelapse-old.mp4;
