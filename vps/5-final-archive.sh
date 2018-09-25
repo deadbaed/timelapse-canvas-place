@@ -1,9 +1,9 @@
 #!/bin/bash
 #
 
-folder=/home/x4m3/web/x4m3-rocks/timelapse/arc/timelapse-$(date -u +\%Y\%m\%d);
+folder=/srv/www/x4m3-rocks/timelapse/arc/timelapse-$(date -u +\%Y\%m\%d);
 
-cd /home/x4m3/web/x4m3-rocks/timelapse;
+cd /srv/www/x4m3-rocks/timelapse;
 
 mkdir -p $folder;
 echo "folder" $folder "created";

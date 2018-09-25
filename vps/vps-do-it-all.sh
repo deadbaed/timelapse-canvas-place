@@ -18,8 +18,5 @@ echo "4. concat the old and new timelapses"
 echo "5. archive the video and the images"
 ./vps/5-final-archive.sh
 
-echo "6. upload the archives to mega"
-./vps/6-mega-put.sh
-
 echo "done, seeya tomorrow :)"
 echo "made with love by http://philippeloctaux.com"
