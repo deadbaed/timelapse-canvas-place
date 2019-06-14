@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #
 
 cd /home/x4m3/timelapse;
